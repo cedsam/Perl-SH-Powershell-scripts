@@ -1,0 +1,6 @@
+# /etc/default/tftpd-hpa
+# Modification stagiaire, l adresse pour le TFTP par defaut n est pas correcte
+TFTP_USERNAME="tftp"
+TFTP_DIRECTORY="/tftpboot" #modification ici
+TFTP_ADDRESS="0.0.0.0:69"
+TFTP_OPTIONS="--secure"
