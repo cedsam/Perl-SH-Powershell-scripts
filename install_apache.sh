@@ -1,4 +1,4 @@
-
+#!/bin/bash
 dpkg --configure -a
 apt-get upgrade
 apt-get update
